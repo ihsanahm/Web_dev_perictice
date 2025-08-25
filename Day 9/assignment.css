@@ -1,0 +1,44 @@
+
+#navbar {
+    height: 50px;
+    width: 100%;       
+    background-color: pink;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.option{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 2 auto;
+    font-weight: bold;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+   background-color: wheat;
+    display: flex;
+    border: 4px solid #0bedc7;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    align-content: space-around;
+    border-radius: 20px;
+}
+ .box{
+    
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+    font-size: 50px;
+    
+}

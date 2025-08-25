@@ -1,0 +1,40 @@
+h2{
+  color: #ff9900;
+  font-style: italic;
+}
+h1{
+  color: black;
+
+}
+span{
+  color: hsla(44, 99%, 36%, 0.871);
+}
+.card{
+  width: 400px;
+  height: auto;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+}
+img{
+  width: 100%;
+  border-radius: 25px;
+
+}
+#pets{
+  display: flex;
+  justify-content: space-evenly;
+}
+h4{
+  text-align: right;
+  color: rgb(7, 127, 87);
+}
+
+@media (max-width:450px) {
+  #pets{
+    flex-wrap: wrap;
+    justify-items: auto;
+  }
+  
+}

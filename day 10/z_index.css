@@ -1,0 +1,23 @@
+div{
+    width: 150px;
+    height: 150px;
+   
+    border: 2px solid black;
+    
+}
+.red{
+    background-color: red;
+   
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+}
+.orange{
+    background-color: orange;
+    position: relative;
+    z-index: 2;
+    
+}
+.blue{
+    background-color: blue;
+}

@@ -1,0 +1,28 @@
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    background-color: #8a710b;
+    border: 2px solid black;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 25px;
+    box-shadow:0 5px 10px  hsl(60, 3%, 6%);
+   transition: 1s;
+
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+    
+}
+.desc{
+   color: white;
+   padding: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+}
+.card:hover{
+ box-shadow: 0 10px 20px  hwb(56 0% 21% / 0.821);
+}

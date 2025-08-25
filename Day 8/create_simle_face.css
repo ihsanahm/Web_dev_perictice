@@ -1,0 +1,92 @@
+/* Center the face */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#outer {
+    width: 400px;
+    height: 400px;
+    background-color: #fbd5afce;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* Eyes */
+#Inner_el_r, #Inner_el_l {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: black;
+    position: absolute;
+    animation: blink 2s infinite; 
+    transform-origin: center; 
+    
+    
+}
+
+@keyframes blink {
+    0%, 90%, 100% {
+        transform: scaleY(1); /* Normal size */
+    }
+    95% {
+        transform: scaleY(0.1); /* Almost closed */
+    }
+}
+
+#Inner_el_r {
+    top: 90px;
+    left: 100px;
+}
+
+#Inner_el_l {
+    top: 90px;
+    left: 200px;
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+   
+}
+
+/* Mouth */
+#mouth {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 0 0 100px 100px;
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    overflow: hidden;
+}
+
+/* Individual Teeth */
+.teath {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    opacity: 0;
+}
+
+.teath div {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 0 2px;
+    border-radius: 3px;
+    
+}
+.teath:hover{
+    opacity: 1;
+}

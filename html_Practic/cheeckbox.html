@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check box</title>
+</head>
+<body>
+    <section>
+        <form action="/file.php">
+            <input type="checkbox" id="age" name="age" checked>
+            <label for="age"> I am 18+</label>
+            
+
+
+            <div>
+                <input type="radio" name="fruit" id="apple" value="apple" checked>
+                <label for="apple"> Apple</label>
+                <br>
+                <input type="radio" name="fruit" id="mango" value="mango">
+                <label for="mango"> Mango</label>
+                <br>
+                <input type="radio" name="fruit" id="orange" value="orange">
+                <label for="orange"> Orange</label>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div>
+                chose your subjects :
+                <br>
+                <input type="checkbox" id="math" name="subjects"  value="Math">
+                <label for="math"> math</label>
+                <br>
+                <input type="checkbox" id="english" name="subjects" value="English">
+                <label for="english">english</label>
+                <br>
+                <input type="checkbox" id="physics" name="subjects" value="physics">
+                <label for="physics">physics</label> 
+                <br>
+                <input type="checkbox" id="chemistery" name="subjects" value="chemistery">
+                <label for="chemistery"> chemistery</label>
+            </div>
+
+
+            <div>
+                chose your profession :
+                <select name="profession" id="profession">
+                    <option value="stu">Student</option>
+                    <option value="dev">developer</option>
+                </select>
+
+                <br>
+                <label for="vol">slect your volume level :</label>
+                <input type="range" id="vol" min="0" max="100" name="vol" step="10">
+                
+            </div>
+            <div>
+                <label for="feedback">Please give your valueable feedback :</label>
+                <textarea name="feedback" id="feedback" placeholder="write your valueable feedback here"></textarea>
+            </div>
+            <button>submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
